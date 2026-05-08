@@ -9,7 +9,6 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
-    padding: 0px;
     flex-grow: 1;
     padding: 20px 230px;
 }
@@ -25,4 +24,46 @@ body {
     display: flex;
     font-size: 18px;
     gap: 15px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+    padding: 100px 230px;
+    background-color: #1F2937;
+    gap: 150px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content .header {
+    color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.info {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    width: 130px;
+    height: 40px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+img {
+    height: 230px;
+    width: auto;
 }
