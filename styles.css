@@ -6,7 +6,8 @@ body {
 }
 
 .header,
-.content {
+.content,
+.footer {
     background-color: #1F2937;
     display: flex;
 }
@@ -139,4 +140,10 @@ h2 {
 
 .sign_up button {
     border: #F9FAF8, solid;
+}
+
+.footer {
+    justify-content: center;
+    color:#E5E7EB;
+    padding: 50px;
 }
