@@ -136,3 +136,7 @@ h2 {
     justify-content: space-between;
     align-items: center;
 }
+
+.sign_up button {
+    border: #F9FAF8, solid;
+}
